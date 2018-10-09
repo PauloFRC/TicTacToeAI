@@ -153,7 +153,7 @@ def play(train=False, training_times = 100000, playSerious=False, randomizex=Tru
 			#if training_times%5000==0:
 			#	print(ceiling, training_times)
 
+if __name__ == '__main__':
+	play(train=True, training_times=1000000, randomizex=True)
 
-play(train=True, training_times=1000000, randomizex=True)
-
-play(playSerious=True, randomizex=False)
+	play(playSerious=True, randomizex=False)
